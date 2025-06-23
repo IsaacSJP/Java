@@ -7,20 +7,20 @@ public class TestAuto {
 		Auto auto1= new Auto();
 		Auto auto2= new Auto();
 		
-		auto1.marca="Toyota";
-		auto1.anio=2000;
-		auto1.precio=18500.00;
-		auto2.marca="Kia";
-		auto2.anio=2011;
-		auto2.precio=15000.00;
+		auto1.setMarca("Toyota");
+		auto1.setAnio(2000);
+		auto1.setPrecio(18500.00);
+		auto2.setMarca("Kia");
+		auto2.setAnio(2011);
+		auto2.setPrecio(15000.00);
 		
-		System.out.println("auto.marca"+auto1.marca);
-		System.out.println("auto.anio"+auto1.anio);
-		System.out.println("auto.precio"+auto1.precio);
+		System.out.println("auto1.getMarca() "+auto1.getMarca());
+		System.out.println("auto1.getAnio() "+auto1.getAnio());
+		System.out.println("auto.getPrecio() "+auto1.getPrecio());
 		System.out.println("*********************************");
-		System.out.println("auto.marca"+auto2.marca);
-		System.out.println("auto.anio"+auto2.anio);
-		System.out.println("auto.precio"+auto2.precio);
+		System.out.println("auto2.getMarca() "+auto2.getMarca());
+		System.out.println("auto2.getAnio() "+auto2.getAnio());
+		System.out.println("auto2.getPrecio() "+auto2.getPrecio());
 	}
 
 }

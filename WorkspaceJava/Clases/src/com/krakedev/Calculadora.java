@@ -1,6 +1,7 @@
 package com.krakedev;
 
 public class Calculadora {
+	//no hay atributos sulo metodos
 	public int sumar(int valor1,int valor2) {
 		int resultado;
 		resultado=valor1+valor2;

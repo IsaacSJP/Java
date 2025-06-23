@@ -6,6 +6,9 @@ public class TestPersona {
 
 		Persona p;// creo una variable p de tipo persona
 		Persona p2 = new Persona();
+		Persona p3 = new Persona("Luis");
+		Persona p4 = new Persona("Roberto",18,1.80);
+		
 		p = new Persona();// creo o intancio un objeto Persona, referencio con p
 		System.out.println("nombre: " + p.getNombre());
 		System.out.println("edad: " + p.getEdad());
@@ -23,5 +26,8 @@ public class TestPersona {
 		System.out.println("******************************");
 		System.out.println("p.nombre: " + p.getNombre());
 		System.out.println("p2.nombre: " + p2.getNombre());
+		System.out.println("******************************");
+
+		
 	}
 }
